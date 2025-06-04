@@ -18,9 +18,6 @@ This project is a RESTful API built with Node.js for managing users. It allows u
 
 - ✅ User registration (`POST /api/auth/register`)
 - ✅ Login with JWT authentication (`POST /api/auth/login`)
-- 🔒 Route protection with JWT middleware (optional)
-- 📬 Password recovery via email (in development)
-- ✏️ User profile update (in development)
 
 ---
 
@@ -40,10 +37,6 @@ This project is a RESTful API built with Node.js for managing users. It allows u
 └── package.json
 
 ✅ Status
-This project is under development. So far, the following features have been implemented:
-
-User registration
-
-JWT-based login
+This project is under development.
 
 
