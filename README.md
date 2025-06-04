@@ -1,6 +1,49 @@
-<h1 align="center"> Management User System</h1>
-<p  align="center">It's a system where you can create an user with your name, e-mail and password, If it's all ok, a message that the user was created will apears then the datas goes to database <br /> but if there's an error, like "e-mail already in use", an error message will apears!
-</p>
-<H3 align="center">How I Did</H3>
-<p align="center">Using <strong>Node.js</strong> and <strong>express</strong> for the routes and server <br />
-<strong>MySql</strong> and <strong>Sequelize</strong> for databases <br /> and <strong>bcrypt</strong> to encrypt the password</p>
+# 🛡️ User Management System with JWT
+
+This project is a RESTful API built with Node.js for managing users. It allows users to register, log in, and access protected resources using JWT (JSON Web Token) authentication.
+
+## 🔧 Technologies Used
+
+- Node.js
+- Express.js
+- Sequelize ORM
+- MySQL
+- Bcrypt (password hashing)
+- JSON Web Token (authentication)
+- dotenv (environment variables)
+
+---
+
+## 🚀 Features
+
+- ✅ User registration (`POST /api/auth/register`)
+- ✅ Login with JWT authentication (`POST /api/auth/login`)
+- 🔒 Route protection with JWT middleware (optional)
+- 📬 Password recovery via email (in development)
+- ✏️ User profile update (in development)
+
+---
+
+## 📁 Project Structure
+
+├── app.js
+├── .env
+├── models/
+│ └── User.js
+├── controllers/
+│ └── authController.js
+├── routes/
+│ └── authRoutes.js
+├── config/
+│ └── db.js
+├── sync.js
+└── package.json
+
+✅ Status
+This project is under development. So far, the following features have been implemented:
+
+User registration
+
+JWT-based login
+
+
