@@ -21,21 +21,6 @@ This project is a RESTful API built with Node.js for managing users. It allows u
 
 ---
 
-## 📁 Project Structure
-
-├── app.js
-├── .env
-├── models/
-│ └── User.js
-├── controllers/
-│ └── authController.js
-├── routes/
-│ └── authRoutes.js
-├── config/
-│ └── db.js
-├── sync.js
-└── package.json
-
 ✅ Status
 This project is under development.
 
